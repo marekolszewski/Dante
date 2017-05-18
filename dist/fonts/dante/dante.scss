@@ -24,6 +24,18 @@
   content: '\e903'; 
 }
 
+.dante-icon-video:before {
+  content: "\e600";
+}
+
+.dante-icon-image:before {
+  content: "\e601";
+}
+
+.dante-icon-embed:before {
+  content: "\e603";
+}
+
 @font-face {
   font-family: 'dante-tooltip';
   src: url('./dante.eot');

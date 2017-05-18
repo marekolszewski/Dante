@@ -1,0 +1,37 @@
+.dante-icons {
+  display: inline-block;
+  font: normal normal normal 14px/1 'dante-tooltip';
+  font-size: inherit;
+  text-rendering: auto;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dante-icon-image-center:before {
+  content: '\e900'; 
+}
+
+.dante-icon-image-fill:before {
+  content: '\e901'; 
+}
+
+.dante-icon-image-left:before {
+  content: '\e902'; 
+}
+
+.dante-icon-image-wide:before {
+  content: '\e903'; 
+}
+
+@font-face {
+  font-family: 'dante-tooltip';
+  src: url('./dante.eot');
+  src: url('./dante.eot?#iefix') format('embedded-opentype'), 
+       url('./dante.woff') format('woff'), 
+       url('./dante.ttf') format('truetype'), 
+       url('./dante.svg') format('svg');
+  font-weight: normal;
+  font-style: normal; 
+}
+
